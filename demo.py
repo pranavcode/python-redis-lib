@@ -20,7 +20,7 @@ if __name__ == "__main__":
     possible_chars = 'abcdefghijklmnopqrstuvwxyz'
     error = urlbase.Init('192.168.1.10','6379')
     if error == False:
-        print 'Welcome to demonstration for go-lib'
+        print 'Welcome to demonstration for python-lib'
         
         print '\nGenerating 10 random URLs for the demo...'
         urls = URLsGenerator(10, 10, possible_chars)
